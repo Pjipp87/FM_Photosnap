@@ -1,0 +1,62 @@
+@import "../src/bootstrap-5.2.2/scss/functions";
+
+@import "../src/bootstrap-5.2.2/scss/variables";
+@import "../src/bootstrap-5.2.2/scss/mixins";
+@import "../src/bootstrap-5.2.2/scss/bootstrap.scss";
+
+$lightGrey: hsl(0, 0%, 87%);
+
+$theme-colors: (
+  "lieghtGrey": $lightGrey,
+);
+
+body {
+  font-family: "DM Sans";
+  font-size: 15px;
+}
+
+.container-nav {
+  padding: 0 24px 0 24px;
+  width: 100%;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+.nav-link {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item:first-child {
+  margin-top: 32px;
+}
+
+.nav-item {
+  margin-top: 20px;
+}
+
+.nav-item:last-child {
+  margin: 0;
+}
+
+hr {
+  padding: 0;
+  margin: 20 0;
+}
+
+.nav-button {
+  color: #ffffff;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  padding: 14px 0;
+}
+
+.nav-link {
+  font-weight: bold;
+  letter-spacing: 2.5pt;
+}
