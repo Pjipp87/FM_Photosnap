@@ -10936,8 +10936,11 @@ textarea.form-control-lg {
 }
 main {
   font-family: "DM Sans";
-  font-size: 15px;
   padding-top: 72px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .navbar {
