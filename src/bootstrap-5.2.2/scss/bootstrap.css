@@ -3796,9 +3796,8 @@ textarea.form-control-lg {
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   --bs-navbar-toggler-border-color: rgba(0, 0, 0, 0.1);
   --bs-navbar-toggler-border-radius: 0.375rem;
-  --bs-navbar-toggler-focus-width: 0.25rem;
   --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
-  position: relative;
+  position: static;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -3935,7 +3934,7 @@ textarea.form-control-lg {
   }
   .navbar-expand-sm .offcanvas {
     position: static;
-    z-index: auto;
+    z-index: 9999;
     flex-grow: 1;
     width: auto !important;
     height: auto !important;
@@ -3982,7 +3981,7 @@ textarea.form-control-lg {
   }
   .navbar-expand-md .offcanvas {
     position: static;
-    z-index: auto;
+    z-index: 9999;
     flex-grow: 1;
     width: auto !important;
     height: auto !important;
@@ -4029,7 +4028,7 @@ textarea.form-control-lg {
   }
   .navbar-expand-lg .offcanvas {
     position: static;
-    z-index: auto;
+    z-index: 9999;
     flex-grow: 1;
     width: auto !important;
     height: auto !important;
@@ -4076,7 +4075,7 @@ textarea.form-control-lg {
   }
   .navbar-expand-xl .offcanvas {
     position: static;
-    z-index: auto;
+    z-index: 9999;
     flex-grow: 1;
     width: auto !important;
     height: auto !important;
@@ -4123,7 +4122,7 @@ textarea.form-control-lg {
   }
   .navbar-expand-xxl .offcanvas {
     position: static;
-    z-index: auto;
+    z-index: 9999;
     flex-grow: 1;
     width: auto !important;
     height: auto !important;
@@ -4169,7 +4168,7 @@ textarea.form-control-lg {
 }
 .navbar-expand .offcanvas {
   position: static;
-  z-index: auto;
+  z-index: 9999;
   flex-grow: 1;
   width: auto !important;
   height: auto !important;

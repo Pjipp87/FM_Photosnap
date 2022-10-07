@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="DE-de">
 
 <head>
     <meta charset="UTF-8">
@@ -11,7 +11,12 @@
 
     <script src="../src/jQuery/jquery-3.6.1.js"></script>
     <script src="../src/bootstrap-5.2.2/dist/js/bootstrap.js"></script>
-    <title>Frontend Mentor | Photosnap Website Challenge</title>
+    <script src="../js/navigation.js"></script>
+
+    <?php if($page === 'home'): ?>
+    <?php echo '<link rel="stylesheet" href="../style/home.css">' ?>
+    <?php endif; ?>
+    <title>Photosnap | <?php echo $pageTitle ?> </title>
 </head>
 
 <body>

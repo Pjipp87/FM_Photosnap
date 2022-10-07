@@ -29,11 +29,11 @@
     )};
   --#{$prefix}navbar-toggler-border-color: #{$navbar-light-toggler-border-color};
   --#{$prefix}navbar-toggler-border-radius: #{$navbar-toggler-border-radius};
-  --#{$prefix}navbar-toggler-focus-width: #{$navbar-toggler-focus-width};
+  //  --#{$prefix}navbar-toggler-focus-width: #{$navbar-toggler-focus-width};
   --#{$prefix}navbar-toggler-transition: #{$navbar-toggler-transition};
   // scss-docs-end navbar-css-vars
 
-  position: relative;
+  position: static;
   display: flex;
   flex-wrap: wrap; // allow us to do the line break for collapsing content
   align-items: center;
@@ -141,6 +141,7 @@
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;
+
   // For always expanded or extra full navbars, ensure content aligns itself
   // properly vertically. Can be easily overridden with flex utilities.
   align-items: center;
@@ -231,7 +232,7 @@
         .offcanvas {
           // stylelint-disable declaration-no-important
           position: static;
-          z-index: auto;
+          z-index: 9999;
           flex-grow: 1;
           width: auto !important;
           height: auto !important;

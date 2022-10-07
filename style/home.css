@@ -1,1 +1,28 @@
-/*# sourceMappingURL=home.css.map */
+.text-container:first-of-type {
+  padding: 0 33px 72px 33px;
+}
+
+.accent {
+  width: 128px;
+  height: 6px;
+  background: linear-gradient(183deg, hsl(229deg, 100%, 67%), hsl(329deg, 36%, 59%), hsl(28deg, 100%, 79%));
+  margin-bottom: 66px;
+}
+
+.text-container {
+  padding: 72px 33px;
+}
+
+.heading-home {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 3.33px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.text-home {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 15px;
+  line-height: 25px;
+}/*# sourceMappingURL=home.css.map */

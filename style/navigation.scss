@@ -10,13 +10,21 @@ $theme-colors: (
   "lieghtGrey": $lightGrey,
 );
 
-body {
+main {
   font-family: "DM Sans";
   font-size: 15px;
+  padding-top: 72px;
+}
+
+.navbar {
+  width: 100%;
+  position: absolute;
+  isolation: isolate;
+  z-index: 666666;
 }
 
 .container-nav {
-  padding: 0 24px 0 24px;
+  padding: 8px 24px 8px 24px;
   width: 100%;
 }
 

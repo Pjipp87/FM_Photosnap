@@ -1,7 +1,7 @@
 <?php 
 $pageTitle = "Pricing";
 $page = "pricing";
-require_once "./inc/Header.php" ?>
+require_once "../inc/Header.php" ?>
 
 Stories
 Features
@@ -65,4 +65,4 @@ Get an invite
 
 Copyright 2019. All Rights Reserved
 
-<?php require_once "./inc/footer.php" ?>
+<?php require_once "../inc/footer.php" ?>
