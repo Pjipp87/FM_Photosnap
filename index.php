@@ -1,6 +1,7 @@
 <?php 
 $pageTitle = "Home";
 $page = "home";
+require "./src/data.php";
 require_once "./inc/Header.php" ?>
 
 <div class="container-fluid p-0">
@@ -13,7 +14,10 @@ require_once "./inc/Header.php" ?>
             Photosnap is a platform for photographers and visual storytellers. We make it
             easy to share photos, tell stories and connect with others.
         </p>
-        <div class="text-white">Temp</div>
+
+        <a class="arrow_button text-white">GET AN INVITE<img class="white_arrow"
+                src="./assets/shared/desktop/arrow.svg"></a>
+
 
     </div>
 </div>
@@ -29,7 +33,9 @@ require_once "./inc/Header.php" ?>
             photos, text, embed maps and media from other networks. Then share your story
             with everyone.
         </p>
-        <div class="text-black">Temp</div>
+
+        <a class="arrow_button">VIEW THE STORIES<img src="./assets/shared/desktop/arrow.svg"></a>
+
 
     </div>
 </div>
@@ -43,10 +49,22 @@ require_once "./inc/Header.php" ?>
             Photosnap can help you create stories that resonate with your audience. Our
             tool is designed for photographers of all levels, brands, businesses you name it.
         </p>
-        <a class="arrow_button">VIEW THE STORIES</a>
+        <a class="arrow_button"><span>READ STORY</span><img src="./assets/shared/desktop/arrow.svg"></a>
 
     </div>
 </div>
+
+
+<?php foreach($storiesData as $element): ?>
+
+<div class="container-fluid img_Container" style="background-image: url(<?php echo $element[0] ?>) ;">
+    <h1><?php echo $element[1] ?></h1>
+    <p><?php echo $element[2] ?></p>
+    <hr>
+    <a class="arrow_button white_arrow">VIEW THE STORIES<img src="./assets/shared/desktop/arrow.svg"></a>
+</div>
+
+<?php endforeach; ?>
 
 
 <?php require_once "./inc/footer.php" ?>

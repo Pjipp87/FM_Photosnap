@@ -46,5 +46,55 @@
 .arrow_button {
   margin: 0;
   padding: 0;
-  font-size: 12 !important;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #000000;
+
+  img {
+    width: 42px;
+    height: 12px;
+    margin-left: 26px;
+  }
+}
+
+.white_arrow {
+  filter: invert(100%) sepia(1%) saturate(283%) hue-rotate(267deg)
+    brightness(113%) contrast(100%);
+  -webkit-filter: invert(100%) sepia(1%) saturate(283%) hue-rotate(267deg)
+    brightness(113%) contrast(100%);
+}
+
+.img_Container {
+  height: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  padding: 0 32px 40px 33px;
+  padding-bottom: 40px;
+
+  p {
+    font-size: 13px;
+    line-height: 1rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  h1 {
+    padding: 0;
+    margin-bottom: 4;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  hr {
+    margin: 16px 0 20px 0;
+  }
+
+  .arrow_button {
+    display: flex;
+    justify-content: space-between;
+  }
 }
