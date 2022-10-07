@@ -7,6 +7,7 @@
 
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
     <link rel="stylesheet" href="../style/navigation.css">
+    <link rel="stylesheet" href="../style/footer.css">
     <link rel="stylesheet" href="../src/font/DM_sans.css">
 
     <script src="../src/jQuery/jquery-3.6.1.js"></script>

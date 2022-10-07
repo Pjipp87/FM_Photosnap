@@ -66,5 +66,32 @@ require_once "./inc/Header.php" ?>
 
 <?php endforeach; ?>
 
+<div class="container details_home">
+    <div class="d-flex flex-column align-items-center">
+        <img src="./assets/features/desktop/responsive.svg" width="72px" height="72px" alt="">
+        <div>
+            <h1>100% Responsive</h1>
+            <p>No matter which the device you’re on, our site is fully responsive and stories
+                look beautiful on any screen.</p>
+        </div>
+    </div>
+    <div class="d-flex flex-column align-items-center">
+        <img src="./assets/features/desktop/no-limit.svg" width="72px" height="36px" alt="">
+        <div>
+            <h1>No Photo Upload Limit</h1>
+            <p>Our tool has no limits on uploads or bandwidth. Freely upload in bulk and
+                share all of your stories in one go.</p>
+        </div>
+    </div>
+    <div class="d-flex flex-column align-items-center">
+        <img src="./assets/features/desktop/embed.svg" width="71px" height="72px" alt="">
+        <div>
+            <h1>Available to Embed</h1>
+            <p>Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos,
+                Google Maps, and more.</p>
+        </div>
+    </div>
+</div>
+
 
 <?php require_once "./inc/footer.php" ?>

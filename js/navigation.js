@@ -10,4 +10,8 @@ $(document).ready(() => {
       navButton.attr("src", "../assets/shared/mobile/menu.svg");
     }
   });
+
+  $(".blindLink").click(() => {
+    alert("Dies ist nur eine Testseite...");
+  });
 });
