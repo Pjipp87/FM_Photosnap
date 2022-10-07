@@ -5,7 +5,7 @@ require "./src/data.php";
 require_once "./inc/Header.php" ?>
 
 <div class="container-fluid p-0">
-    <img class="img-fluid" src="./assets/home/mobile/create-and-share.jpg"></img>
+    <img class="img-fluid w-100" src="./assets/home/mobile/create-and-share.jpg"></img>
 
     <div class="bg-black text-white container-fluid text-container_first">
         <div class="accent"></div>
@@ -23,7 +23,7 @@ require_once "./inc/Header.php" ?>
 </div>
 
 <div class="container-fluid p-0">
-    <img class="img-fluid" src="./assets/home/mobile/beautiful-stories.jpg"></img>
+    <img class="img-fluid w-100" src="./assets/home/mobile/beautiful-stories.jpg"></img>
 
     <div class="bg-white text-black container-fluid text-container">
 
@@ -40,7 +40,7 @@ require_once "./inc/Header.php" ?>
     </div>
 </div>
 <div class="container-fluid p-0">
-    <img class="img-fluid" src="./assets/home/mobile/designed-for-everyone.jpg"></img>
+    <img class="img-fluid w-100" src="./assets/home/mobile/designed-for-everyone.jpg"></img>
 
     <div class="bg-white text-black container-fluid text-container">
 
@@ -57,7 +57,8 @@ require_once "./inc/Header.php" ?>
 
 <?php foreach($storiesData as $element): ?>
 
-<div class="container-fluid img_Container" style="background-image: url(<?php echo $element[0] ?>) ;">
+<div class="container-fluid img_Container"
+    style="background-image: url(<?php echo $element[0] ?>) ; background-size:cover; background-position: bottom;">
     <h1><?php echo $element[1] ?></h1>
     <p><?php echo $element[2] ?></p>
     <hr>
