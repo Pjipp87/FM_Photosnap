@@ -14,8 +14,9 @@
     <script src="../src/bootstrap-5.2.2/dist/js/bootstrap.js"></script>
     <script src="../js/navigation.js"></script>
 
-    <!--     <?php if($page === 'home'): ?>
-    <?php echo '<link rel="stylesheet" href="../style/home.css">' ?>
+    <?php if($page === 'pricing'): ?>
+    <script src="../js/pricing.js"></script>
+
     <?php endif; ?> -->
 
     <link rel="stylesheet" href="../style/<?php echo $page ?>.css">

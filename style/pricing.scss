@@ -1,0 +1,77 @@
+.containerPricingTop {
+  background-color: #000000;
+  margin: 0;
+  padding: 0 28px 72px 29px;
+
+  .accent {
+    width: 128px;
+    height: 6px;
+    background: linear-gradient(
+      183deg,
+      hsl(229, 100%, 67%),
+      hsl(329, 36%, 59%),
+      hsl(28, 100%, 79%)
+    );
+    margin-bottom: 66px;
+  }
+
+  h1 {
+    padding: 0;
+    margin: 0 0 16px 0;
+    line-height: 40px;
+    letter-spacing: 3.33px;
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba($color: #ffffff, $alpha: 0.6);
+  }
+}
+
+.ContainerPricingSwitch {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.form-check {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 255px;
+  width: 255px;
+  margin: 64px 0 96px 0;
+
+  .form-check-input,
+  .form-check-input:active,
+  .form-check-input:checked {
+    width: 64px;
+    height: 32px;
+    margin: 0 32px 0 32px;
+    background-color: #dfdfdf;
+    background-image: url("../assets/button.svg");
+  }
+
+  .form-check-label {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    color: rgba($color: #000000, $alpha: 0.5);
+  }
+
+  .active {
+    color: #000000;
+  }
+}
+
+.form-check-input:checked {
+  background-color: #dfdfdf;
+}

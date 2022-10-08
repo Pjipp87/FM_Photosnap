@@ -3,66 +3,24 @@ $pageTitle = "Pricing";
 $page = "pricing";
 require_once "../inc/Header.php" ?>
 
-Stories
-Features
-Pricing
+<div class="container-fluid p-0 m-0">
+    <img class="img-fluid w-100" src="../assets/pricing/mobile/hero.jpg" alt="">
+    <div class="containerPricingTop">
+        <div class="accent"></div>
+        <h1>Pricing</h1>
+        <p>Create a your stories, Photosnap is a platform for photographers and visual storytellers.
+            It’s the simple way to create and share your photos.</p>
+    </div>
+</div>
 
-Get an invite
+<div class="ContainerPricingSwitch">
 
-Pricing
+    <div class="form-check form-switch d-flex ">
+        <label class="form-check-label active" for="flexSwitchCheckDefault" id="monthly">Monthly</label>
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+        <label class="form-check-label" for="flexSwitchCheckDefault" id="yearly">Yearly</label>
+    </div>
 
-Create a your stories, Photosnap is a platform for photographers and visual storytellers.
-It’s the simple way to create and share your photos.
-
-Monthly
-Yearly
-
-Basic
-Includes basic usage of our platform. Recommended for new and aspiring photographers.
-$19.00 per month
-$190.00 per year
-Pick Plan
-
-Pro
-More advanced features available. Recommended for photography veterans and professionals.
-$39.00 per month
-$390.00 per year
-Pick Plan
-
-Business
-Additional features available such as more detailed metrics. Recommended for business owners.
-$99.00 per month
-$990.00 per year
-Pick Plan
-
-Compare
-
-The Features
-
-Basic
-Pro
-Business
-
-Unlimited Story Posting
-Unlimited Photo Upload
-Embedding Custom Content
-Customize Metadata
-Advanced Metrics
-Photo Downloads
-Search Engine Indexing
-Custom Analytics
-
-We're in Beta. Get your invite today!
-
-Get an invite
-
-Home
-Stories
-Features
-Pricing
-
-Get an invite
-
-Copyright 2019. All Rights Reserved
+</div>
 
 <?php require_once "../inc/footer.php" ?>
