@@ -2,10 +2,52 @@
   background-color: #000000;
   padding: 0 28px 72px 29px;
 }
+.featureTopContainer h1 {
+  margin: 0 0 16px 0;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 3.33px;
+  color: white;
+  text-transform: uppercase;
+}
+.featureTopContainer p {
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.6);
+}
 
 .accent {
   width: 128px;
   height: 6px;
   background: linear-gradient(183deg, hsl(229deg, 100%, 67%), hsl(329deg, 36%, 59%), hsl(28deg, 100%, 79%));
   margin-bottom: 66px;
+}
+
+.featureContainer {
+  padding: 64px 32px 91px 33px;
+}
+
+.featureContainerDetails {
+  margin-bottom: 56px;
+}
+.featureContainerDetails:last-child {
+  margin-bottom: 0;
+}
+.featureContainerDetails svg {
+  margin-bottom: 48px;
+}
+.featureContainerDetails h3 {
+  padding: 0;
+  margin: 0 0 16px 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+.featureContainerDetails p {
+  margin: 0;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 25px;
+  text-align: center;
 }/*# sourceMappingURL=features.css.map */
