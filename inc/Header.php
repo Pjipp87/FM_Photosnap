@@ -14,9 +14,12 @@
     <script src="../src/bootstrap-5.2.2/dist/js/bootstrap.js"></script>
     <script src="../js/navigation.js"></script>
 
-    <?php if($page === 'home'): ?>
+    <!--     <?php if($page === 'home'): ?>
     <?php echo '<link rel="stylesheet" href="../style/home.css">' ?>
-    <?php endif; ?>
+    <?php endif; ?> -->
+
+    <link rel="stylesheet" href="../style/<?php echo $page ?>.css">
+
     <title>Photosnap | <?php echo $pageTitle ?> </title>
 </head>
 

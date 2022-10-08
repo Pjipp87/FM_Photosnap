@@ -1,0 +1,63 @@
+.storiesTextContainer {
+  padding: 48px 28px 48px 29px;
+  background-color: #000000;
+  color: #ffffff;
+
+  h3 {
+    padding: 0;
+    margin: 0 0 16px 0;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  h2 {
+    padding: 0;
+    margin: 0 0 16px 0;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 3.33px;
+    line-height: 40px;
+    text-transform: uppercase;
+  }
+
+  h5 {
+    padding: 0;
+    margin: 0 0 24px 0;
+    font-size: 13px;
+    span {
+      color: rgba($color: #ffffff, $alpha: 0.75);
+      padding-right: 9px;
+    }
+  }
+
+  p {
+    color: rgba($color: #ffffff, $alpha: 0.6);
+    font-size: 15px;
+  }
+}
+
+.storyContainer {
+  width: 100%;
+  aspect-ratio: 1/1;
+  padding: 0 42px 40px 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #ffffff;
+
+  h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+  }
+  h1 {
+    margin: 4px 0;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+  }
+  hr {
+    margin: 16px 0 20px 0;
+  }
+}

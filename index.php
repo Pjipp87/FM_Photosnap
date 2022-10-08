@@ -55,17 +55,17 @@ require_once "./inc/Header.php" ?>
 </div>
 
 
-<?php foreach($storiesData as $element): ?>
+<?php for($i=0; $i<3; $i++): ?>
 
 <div class="container-fluid img_Container"
-    style="background-image: url(<?php echo $element[0] ?>) ; background-size:cover; background-position: bottom;">
-    <h1><?php echo $element[1] ?></h1>
-    <p><?php echo $element[2] ?></p>
+    style="background-image: url(<?php echo $storiesData[$i][0] ?>) ; background-size:cover; background-position: bottom;">
+    <h1><?php echo $storiesData[$i][1] ?></h1>
+    <p><?php echo $storiesData[$i][2] ?></p>
     <hr>
     <a class="arrow_button white_arrow">VIEW THE STORIES<img src="./assets/shared/desktop/arrow.svg"></a>
 </div>
 
-<?php endforeach; ?>
+<?php endfor; ?>
 
 <div class="container details_home">
     <div class="d-flex flex-column align-items-center">

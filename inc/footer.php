@@ -38,7 +38,7 @@
         <li><a href="../pages/pricing.php">PRICING</a></li>
 
     </ul>
-    <a class="arrow_button white_arrow arrow_footer">GET AN INVITE<img src="./assets/shared/desktop/arrow.svg"></a>
+    <a class="arrow_button white_arrow arrow_footer">GET AN INVITE<img src="../assets/shared/desktop/arrow.svg"></a>
 
     <p>Copyright 2019. All Rights Reserved</p>
 </footer>
