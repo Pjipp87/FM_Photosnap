@@ -17,7 +17,7 @@
     <?php if($page === 'pricing'): ?>
     <script src="../js/pricing.js"></script>
 
-    <?php endif; ?> -->
+    <?php endif; ?>
 
     <link rel="stylesheet" href="../style/<?php echo $page ?>.css">
 
