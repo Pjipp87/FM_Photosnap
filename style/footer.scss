@@ -84,3 +84,33 @@ footer {
     margin-left: 0;
   }
 }
+
+.containerBottom {
+  margin: 0;
+  padding: 0 32px 64px 33px;
+  background: url("../assets/shared/mobile/bg-beta.jpg");
+  background-size: cover;
+
+  .accent {
+    width: 128px;
+    height: 6px;
+    background: linear-gradient(
+      183deg,
+      hsl(229, 100%, 67%),
+      hsl(329, 36%, 59%),
+      hsl(28, 100%, 79%)
+    );
+    margin-bottom: 58px;
+  }
+
+  h1 {
+    margin: 0 0 24px 0;
+    padding: 0;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 3.33px;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+}
