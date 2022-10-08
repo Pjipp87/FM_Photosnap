@@ -51,5 +51,5 @@ require_once "../inc/Header.php" ?>
 <h1>Tabelle</h1>
 
 
-<?php require_once "../inc/beta.php"; ?>
+<?php require "../inc/beta.php"; ?>
 <?php require_once "../inc/footer.php" ?>

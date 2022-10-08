@@ -25,7 +25,7 @@ require_once "../inc/Header.php" ?>
     <?php endforeach; ?>
 </div>
 
-<?php require_once "../inc/beta.php" ?>
+<?php require "../inc/beta.php" ?>
 
 
 
