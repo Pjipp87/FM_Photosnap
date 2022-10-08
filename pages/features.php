@@ -4,6 +4,16 @@ $page = "features";
 require "../src/data.php";
 require_once "../inc/Header.php" ?>
 
+<div class="container-fluid w-100 p-0 m-0">
+    <img class="img-fluid w-100" src="../assets/features/mobile/hero.jpg" alt="">
+    <div class="featureTopContainer">
+        <div class="accent"></div>
+        <h1>Features</h1>
+        <p>We make sure all of our features are designed to be loved by every aspiring and even
+            professional photograpers who wanted to share their stories.</p>
+    </div>
+</div>
+
 
 <?php foreach($featuresData as $element): ?>
 

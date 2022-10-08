@@ -1,0 +1,11 @@
+.featureTopContainer {
+  background-color: #000000;
+  padding: 0 28px 72px 29px;
+}
+
+.accent {
+  width: 128px;
+  height: 6px;
+  background: linear-gradient(183deg, hsl(229deg, 100%, 67%), hsl(329deg, 36%, 59%), hsl(28deg, 100%, 79%));
+  margin-bottom: 66px;
+}/*# sourceMappingURL=features.css.map */
