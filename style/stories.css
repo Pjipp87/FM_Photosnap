@@ -41,11 +41,9 @@
   flex-direction: column;
   justify-content: flex-end;
   color: #ffffff;
-}
-.storyContainer h3 {
-  padding: 0;
-  margin: 0;
-  font-size: 13px;
+  h3-padding: 0;
+  h3-margin: 0;
+  h3-font-size: 13px;
 }
 .storyContainer h1 {
   margin: 4px 0;

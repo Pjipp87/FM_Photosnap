@@ -23,8 +23,10 @@ require_once "../inc/Header.php" ?>
 
 
 
-<div class="container-fluid storyContainer"
-    style="background-image: url(<?php echo ".".$element[0] ?>) ; background-size:cover; background-position: bottom;">
+<div class="container-fluid storyContainer" style="background:         linear-gradient(
+          rgba(0, 0, 0, 0.1), 
+          rgba(0, 0, 0, 0.1)
+        ), url(<?php echo ".".$element[0] ?>) ; background-size:cover; background-position: bottom;">
     <h3><?php echo $element[3] ?></h3>
     <h1><?php echo $element[1] ?></h1>
     <h3><?php echo $element[2] ?></h3>
