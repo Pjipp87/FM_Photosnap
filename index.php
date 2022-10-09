@@ -3,7 +3,7 @@ $pageTitle = "Home";
 $page = "home";
 require "./src/data.php";
 require_once "./inc/Header.php";
-require_once "./inc/res.php" ?>
+ ?>
 
 <div class="container-fluid containerMain p-0">
 

@@ -29,6 +29,5 @@
 <body>
     <?php
     require_once "Navigation.php";
-    require "res.php"
     ?>
     <main>
