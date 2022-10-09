@@ -1,6 +1,7 @@
 <?php 
 $pageTitle = "Pricing";
 $page = "pricing";
+require "../src/data.php";
 require_once "../inc/Header.php" ?>
 
 <div class="container-fluid p-0 m-0">
@@ -48,7 +49,33 @@ require_once "../inc/Header.php" ?>
     </div>
 </div>
 
-<h1>Tabelle</h1>
+<div class="containerPlans">
+    <h4>The Features</h4>
+
+    <?php foreach($planData as $plan): ?>
+
+    <table>
+        <tr>
+            <th colspan="3"><?php echo $plan[0] ?></th>
+        </tr>
+
+        <tr>
+            <!--             <?php for($i =0; $i < count($plan[1]); $i++): ?>
+
+            <?php endfor; ?> -->
+            <?php foreach($plan[1] as $key => $value):?>
+            <td><span><?php echo $key ;?></span><br>
+                <?php if($value): ?>
+                <img class="checkArrow" src="../assets/pricing/desktop/check.svg" alt="">
+                <?php endif; ?>
+            </td>
+            <?php endforeach;?>
+        </tr>
+    </table>
+
+    <?php endforeach; ?>
+</div>
+
 
 
 <?php require "../inc/beta.php"; ?>

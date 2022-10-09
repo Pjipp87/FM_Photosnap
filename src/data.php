@@ -37,14 +37,14 @@ tooling to add friction to creating stories.')
 
 
 $planData = array(
-  array("Unlimited Story Posting", array(true, true,true)),
-  array("Unlimited Photo Upload", array(true, true, true)),
-  array("Embedding Custom Content", array(false, true, true)),
-  array("Customize Metadata", array(false, true, true)),
-  array("Advanced Metrics", array(false, false, true)),
-  array("Photo Downloads", array(false, false, true)),
-  array("Search Engine Indexing", array(false, false, true)),
-  array("Custom Analytics", array(false, false, true)),
+  array("Unlimited Story Posting", array("Basic" =>true,"Pro" =>true,"Business"=>true)),
+  array("Unlimited Photo Upload", array("Basic" =>true,"Pro" =>true,"Business"=>true)),
+  array("Embedding Custom Content", array("Basic" =>false,"Pro" =>true,"Business"=>true)),
+  array("Customize Metadata", array("Basic" =>false,"Pro" =>true,"Business"=>true)),
+  array("Advanced Metrics", array("Basic" =>false,"Pro" =>false,"Business"=>true)),
+  array("Photo Downloads", array("Basic" =>false,"Pro" =>false,"Business"=>true)),
+  array("Search Engine Indexing", array("Basic" =>false,"Pro" =>false,"Business"=>true)),
+  array("Custom Analytics", array("Basic" =>false,"Pro" =>false,"Business"=>true)),
 )
 
 
