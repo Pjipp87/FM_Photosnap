@@ -3,6 +3,7 @@ $pageTitle = "Home";
 $page = "home";
 require "./src/data.php";
 require_once "./inc/Header.php";
+require "./inc/res.php";
  ?>
 
 <div class="container-fluid containerMain p-0">
@@ -19,7 +20,7 @@ require_once "./inc/Header.php";
         <a class="arrow_button text-white">GET AN INVITE<img class="white_arrow"
                 src="./assets/shared/desktop/arrow.svg"></a>
     </div>
-    <img class="img img-fluid w-100" src="./assets/home/mobile/create-and-share.jpg"></img>
+    <img class="img img-fluid w-100" src="./assets/home/<?php echo $res ?>/create-and-share.jpg"></img>
 </div>
 
 <div class="container-fluid p-0">
