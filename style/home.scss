@@ -2,6 +2,11 @@
   padding: 0 33px 72px 33px;
 }
 
+.containerMain {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 .accent {
   width: 128px;
   height: 6px;
@@ -100,6 +105,19 @@
         line-height: 25px;
         color: rgba($color: #000000, $alpha: 0.6);
       }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .containerMain {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 650px;
+
+    img {
+      object-fit: cover;
+      object-position: 50%;
     }
   }
 }

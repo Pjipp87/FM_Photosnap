@@ -25,6 +25,10 @@
     <title>Photosnap | <?php echo $pageTitle ?> </title>
 </head>
 
+
 <body>
-    <?php require_once "Navigation.php" ?>
+    <?php
+    require_once "Navigation.php";
+    require "res.php"
+    ?>
     <main>

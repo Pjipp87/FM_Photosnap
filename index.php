@@ -2,12 +2,13 @@
 $pageTitle = "Home";
 $page = "home";
 require "./src/data.php";
-require_once "./inc/Header.php" ?>
+require_once "./inc/Header.php";
+require_once "./inc/res.php" ?>
 
-<div class="container-fluid p-0">
-    <img class="img-fluid w-100" src="./assets/home/mobile/create-and-share.jpg"></img>
+<div class="container-fluid containerMain p-0">
 
-    <div class="bg-black text-white container-fluid text-container_first">
+
+    <div class="bg-black text-white container text-container_first">
         <div class="accent"></div>
         <h1 class="heading-home">Create and share your photo Stories.</h1>
         <p class="text-home_first">
@@ -17,15 +18,14 @@ require_once "./inc/Header.php" ?>
 
         <a class="arrow_button text-white">GET AN INVITE<img class="white_arrow"
                 src="./assets/shared/desktop/arrow.svg"></a>
-
-
     </div>
+    <img class="img img-fluid w-100" src="./assets/home/mobile/create-and-share.jpg"></img>
 </div>
 
 <div class="container-fluid p-0">
     <img class="img-fluid w-100" src="./assets/home/mobile/beautiful-stories.jpg"></img>
 
-    <div class="bg-white text-black container-fluid text-container">
+    <div class="bg-white text-black container text-container">
 
         <h1 class="heading-home">Beautiful stories<br>every time</h1>
         <p class="text-home">
@@ -57,7 +57,7 @@ require_once "./inc/Header.php" ?>
 
 <?php for($i=0; $i<3; $i++): ?>
 
-<div class="container-fluid img_Container"
+<div class="container img_Container"
     style="background-image: url(<?php echo $storiesData[$i][0] ?>) ; background-size:cover; background-position: bottom;">
     <h1><?php echo $storiesData[$i][1] ?></h1>
     <p><?php echo $storiesData[$i][2] ?></p>

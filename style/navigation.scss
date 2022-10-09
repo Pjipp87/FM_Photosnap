@@ -10,6 +10,20 @@ $theme-colors: (
   "lieghtGrey": $lightGrey,
 );
 
+.tablet,
+.desktop {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .tablet {
+    display: initial;
+  }
+  .mobile {
+    display: none;
+  }
+}
+
 main {
   font-family: "DM Sans";
 
